@@ -1,0 +1,42 @@
+﻿<Window x:Class="_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="698.321" Width="549.786">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="D:\123.jpg"/>
+        </Grid.Background>
+        <Button x:Name="restart" Content="Restart" HorizontalAlignment="Left" Margin="390,10,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_1" Foreground="White" Background="#7F0097FF" Height="38" FontSize="20"/>
+        <Button x:Name="button0" Content="Button" HorizontalAlignment="Left" Margin="61,208,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="0" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="166,208,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="1" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="271,208,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="2" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Margin="376,208,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="3" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="61,313,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="4" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Margin="166,313,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="5" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button6" Content="Button" HorizontalAlignment="Left" Margin="271,313,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="6" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button7" Content="Button" HorizontalAlignment="Left" Margin="376,313,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="7" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button8" Content="Button" HorizontalAlignment="Left" Margin="61,418,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="8" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button9" Content="Button" HorizontalAlignment="Left" Margin="166,418,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="9" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button10" Content="Button" HorizontalAlignment="Left" Margin="271,418,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="10" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button11" Content="Button" HorizontalAlignment="Left" Margin="376,418,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="11" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button12" Content="Button" HorizontalAlignment="Left" Margin="61,523,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="12" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button13" Content="Button" HorizontalAlignment="Left" Margin="166,523,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="13" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button14" Content="Button" HorizontalAlignment="Left" Margin="271,523,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="14" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Button x:Name="button15" Content="Button" HorizontalAlignment="Left" Margin="376,523,0,0" VerticalAlignment="Top" Width="100" Height="100" Tag="15" Click="button_Click" Background="#87DDDDDD" FontSize="36" BorderBrush="#00000000" Foreground="White"/>
+        <Label Content="Score:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="38" Width="73" FontSize="22" Foreground="White" FontWeight="Bold"/>
+        <Label x:Name="steps" Content="0" HorizontalAlignment="Left" Margin="88,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="22" FontWeight="Bold" Width="262"/>
+
+        <Grid x:Name="grid2" Background="#FF00ADEF">
+            <Border x:Name="border" VerticalAlignment="Center" Margin="121,146,120,360" Height="161" CornerRadius="70" OpacityMask="Black" BorderBrush="Black" Background="White" >
+                <Button x:Name="start" Content="Start" FontSize="72" UseLayoutRounding="False" Padding="3,1,1,1" RenderTransformOrigin="0.5,0.5" BorderBrush="#00000000" BorderThickness="10" Background="#00DDDDDD" OpacityMask="Black" Foreground="Black" Click="start_Click"/>
+            </Border>
+            <MediaElement x:Name="player" HorizontalAlignment="Left" Height="304" VerticalAlignment="Top" Width="542" Margin="0,363,0,0" Source="D:\16.gif" LoadedBehavior="Manual" UnloadedBehavior="Play"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\bin\Debug\All_In_One.exe.config
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\bin\Debug\All_In_One.exe
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\bin\Debug\All_In_One.pdb
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.csprojAssemblyReference.cache
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\MainWindow.g.cs
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\App.g.cs
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One_MarkupCompile.cache
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One_MarkupCompile.lref
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\MainWindow.baml
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.g.resources
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.Properties.Resources.resources
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.csproj.GenerateResource.cache
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.csproj.CoreCompileInputs.cache
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.exe
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One.pdb
+C:\Users\rooddie\Desktop\All_In_One\All_In_One\obj\Debug\All_In_One_Content.g.cs
